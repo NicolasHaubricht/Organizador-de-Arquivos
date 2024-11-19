@@ -6,7 +6,7 @@ def move_file_back_to_root(file_name, folder_name):
     caminho_destino = os.path.join(os.getcwd(), file_name)
     os.rename(caminho_origem, caminho_destino)
 
-pastas = ['texto', 'documento_pdf', 'documento_docx', 'imagem', 'musica', 'vídeo', 'csv']  # Adicione ou remova pastas conforme necessário
+pastas = ['texto', 'documento', 'imagem', 'musica', 'vídeo', 'csv']  # Adicione ou remova pastas conforme necessário
 
 for folder_name in pastas:
     if os.path.exists(folder_name): 

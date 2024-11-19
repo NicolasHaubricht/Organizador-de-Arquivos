@@ -17,8 +17,8 @@ cwd = os.getcwd()
 list_file = os.listdir(cwd)
 file_extension_list = {
     '.txt': 'texto',
-    '.pdf': 'documento_pdf',
-    '.docx': 'documento_docx',
+    '.pdf': 'documento',
+    '.docx': 'documento',
     '.jpg': 'imagem',
     '.jpeg': 'imagem',
     '.png': 'imagem',
