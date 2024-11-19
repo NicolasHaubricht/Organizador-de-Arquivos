@@ -39,4 +39,3 @@ for file in list_file:
         print('Este é um diretório ou arquivo sem extensão')
     else:
         print(f"Tipo de arquivo desconhecido: {file_extension}")
-
